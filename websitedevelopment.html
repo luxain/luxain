@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+p{
+    text-align: center;
+}
+button{
+    text-align: center;
+}    
+
+@media (max-width: 500px){
+    video{
+        width: 100%;
+    }
+}
+
+</style>    
+</head>    
+<body>    
+
+<h1>website development/How to make a protfolio websiteusing html css JavScript Complete Responsive website Design(1080P_HD)</h1>
+<p>In Hindi</p>
+<button onclick="openFullscreen();">Click ToFullscreen Mode</button>
+<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+
+<video width="50%" controls id="myvideo">
+  <source src="website development/How To Make A Portfolio Website Using HTML CSS JS _ Complete Responsive Website Design(1080P_HD).mp4"video/mp4">
+  <!-- <source src="rain.ogg" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+
+<h1>website development/create a Responsive website Using html-Css-Javascript in Hindi(720P_HD)</h1>
+<p>In Hindi</p>
+<button onclick="openFullscreen();">Click ToFullscreen Mode</button>
+<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+
+<video width="50%" controls id="myvideo">
+  <source src="website development/Create a Responsive Website Using HTML_ CSS _ JavaScript in Hindi(720P_HD).mp4" type="video/mp4">
+  <!-- <source src="rain.ogg" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+
+
+
+<script>
+var elem = document.getElementById("myvideo");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+<p>Note: Internet Explorer 10 and earlier versions do not support the msRequestFullscreen() method.</p>
+
+</body>
+</html>
+

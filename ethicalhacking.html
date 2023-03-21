@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+p{
+    text-align: center;
+}
+button{
+    text-align: center;
+}    
+
+@media (max-width: 500px){
+    video{
+        width: 100%;
+    }
+}
+
+</style>    
+</head>    
+<body>    
+
+<h1>Linux For Ethical Hackers (Kali Linux Tutorial) (720P_HD)</h1>
+<p>In English</p>
+<button onclick="openFullscreen();">Click ToFullscreen Mode</button>
+<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+
+<video width="50%" controls id="myvideo">
+  <source src="hckvid/Linux for Ethical Hackers (Kali Linux Tutorial)(720P_HD).mp4" type="video/mp4">
+  <!-- <source src="rain.ogg" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+
+<h1>CSS Tutorial In Hindi- Complete Css Course For Beginners To Advanced - step by step Tutorial in 2023 (720P_HD)</h1>
+<p>In Hindi</p>
+<button onclick="openFullscreen();">Click ToFullscreen Mode</button>
+<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+
+<video width="50%" controls id="myvideo">
+  <source src="hckvid/CSS Tutorial in Hindi _ Complete CSS Course For Beginners to Advanced _ Step By Step Tutorial [2023](720P_HD).mp4" type="video/mp4">
+  <!-- <source src="rain.ogg" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+<h1> Data Structures and Algorithms Full Course Tutorial- DSA Tutorial for Beginners(480P_HD)</h1>
+<p>In Hindi</p>
+<button onclick="openFullscreen();">Click ToFullscreen Mode</button>
+<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+
+<video width="50%" controls id="myvideo">
+  <source src="hckvid/Data Structures and Algorithms Full Course Tutorial _ DSA Tutorial for Beginners(480P).mp4" type="video/mp4">
+  <!-- <source src="rain.ogg" type="video/ogg"> -->
+  Your browser does not support the video tag.
+</video>
+
+
+
+
+<script>
+var elem = document.getElementById("myvideo");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+<p>Note: Internet Explorer 10 and earlier versions do not support the msRequestFullscreen() method.</p>
+
+</body>
+</html>
+
